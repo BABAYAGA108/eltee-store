@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               EL-TEE
             </span>
           </div>
-          <p className="font-body text-sm text-sand/35 leading-relaxed max-w-[260px]">
+          <p className="font-body text-sm text-sand/35 leading-relaxed max-w-65">
             Bespoke seamstress services crafted with love, skill, and an eye for
             detail. Based in Lagos, serving clients across Nigeria.
           </p>

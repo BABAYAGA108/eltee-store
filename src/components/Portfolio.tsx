@@ -28,7 +28,7 @@ export const Portfolio: React.FC = () => {
               }}
             >
               <div
-                className={`${item.swatch} relative w-full ${isLeft || isRight ? "h-full min-h-[500px]" : "aspect-square"}`}
+                className={`${item.swatch} relative w-full ${isLeft || isRight ? "h-full min-h-125" : "aspect-square"}`}
               >
                 <div className="portfolio-overlay absolute inset-0 bg-ink/75 flex flex-col justify-end p-6 opacity-0 transition-opacity duration-400">
                   <h3 className="font-display text-sand-pale font-normal text-xl">
