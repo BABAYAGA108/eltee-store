@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
 
   return (
     <>
-      <footer className="bg-ink py-16 px-20 grid grid-cols-[2fr_1fr_1fr] gap-16 items-start">
+      <footer className="bg-teal-900 bg-ink py-16 px-20 grid grid-cols-[2fr_1fr_1fr] gap-16 items-start">
         <div>
           <div className="flex items-center gap-3 mb-5">
             <LogoMark variant="sand" size={28} />
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
               EL-TEE
             </span>
           </div>
-          <p className="font-body text-sm text-sand/35 leading-relaxed max-w-65">
+          <p className="text- font-body text-sm text-sand/35 leading-relaxed max-w-65">
             Bespoke seamstress services crafted with love, skill, and an eye for
             detail. Based in Lagos, serving clients across Nigeria.
           </p>
