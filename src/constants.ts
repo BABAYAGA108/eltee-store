@@ -57,11 +57,19 @@ export const PORTFOLIO: PortfolioItem[] = [
   { swatch: "sw3", title: "Ankara Dress",    sub: "Custom · Green Ankara"  },
   { swatch: "sw5", title: "Classic Blazer",  sub: "Alteration · Midnight"  },
 ];
-
-export const TESTIMONIALS: Testimonial[] = [
-  { quote: "The gown she made for my wedding was absolutely breathtaking. She captured exactly what I envisioned and delivered beyond expectations.", author: "Adaeze O. · Bride, Lagos" },
-  { quote: "Quick turnaround on my suit alterations and the finish was impeccable. You can tell she genuinely loves what she does.", author: "Emeka D. · Business Client" },
-  { quote: "I brought in a dress I thought was ruined — she restored it perfectly. Incredible skill and such a warm, professional experience.", author: "Funmi B. · Returning Customer" },
+ export const TESTIMONIALS: Testimonial[] = [
+  {
+    quote: "The gown she made for my wedding was absolutely breathtaking. She captured exactly what I envisioned and delivered beyond expectations.",
+    author: "Adaeze O. · Bride, Lagos",
+  },
+  {
+    quote: "Quick turnaround on my suit alterations and the finish was impeccable. You can tell she genuinely loves what she does.",
+    author: "Emeka D. · Business Client",
+  },
+  {
+    quote: "I brought in a dress I thought was ruined — she restored it perfectly. Incredible skill and such a warm, professional experience.",
+    author: "Funmi B. · Returning Customer",
+  },
 ];
 
 export const STATS: Stat[] = [
