@@ -1,5 +1,5 @@
 // src/components/sections/Testimonials.tsx
-import React from "react";
+import React, { JSX } from "react";
 import { useReveal } from "../hooks";
 import { SectionTag } from "./SectionTag";
 import { TESTIMONIALS } from "../constants";
@@ -33,7 +33,7 @@ export function Testimonials(): JSX.Element {
           What our clients say about us
         </p>
 
-        <div className="block h-px w-full opacity-35 my-6 md:my-8 bg-linear-to-r from-transparent via-[#1a5c52] to-transparent" />
+        <div className="block h-px w-full opacity-35 my-6 md:my-8 bg-gradient-to-r from-transparent via-[#1a5c52] to-transparent" />
 
         <p className="font-sans text-xs md:text-sm text-[#5a8a82] leading-relaxed">
           We take pride in every stitch, every seam, and every satisfied
@@ -45,16 +45,15 @@ export function Testimonials(): JSX.Element {
       {/* Right Column - Testimonial Cards */}
       <div
         ref={revealRef}
-        className="flex flex-col gap-4 md:gap-6 md:col-span-2"
+        className="group flex flex-col gap-4 md:gap-6 md:col-span-2"
       >
         {TESTIMONIALS.map((testimonial: Testimonial, index: number) => (
           <div
             key={testimonial.author}
-            className="bg-[#f2e4cc] p-6 md:p-8 border-l-2 border-[#1a5c52] opacity-0 translate-y-10 transition-all duration-700 ease-out data-[visible=true]:opacity-100 data-[visible=true]:translate-y-0"
+            className="bg-[#f2e4cc] p-6 md:p-8 border-l-2 border-[#1a5c52] opacity-0 translate-y-10 transition-all duration-700 ease-out group-[.visible]:opacity-100 group-[.visible]:translate-y-0"
             style={{
               transitionDelay: `${index * 150}ms`,
             }}
-            data-reveal="true"
           >
             <p className="font-serif italic text-base md:text-lg text-[#133f38] leading-relaxed md:leading-loose mb-4">
               &ldquo;{testimonial.quote}&rdquo;
