@@ -1,6 +1,6 @@
 // src/components/sections/Testimonials.tsx
 import React, { JSX } from "react";
-import { useReveal } from "../hooks";
+import { useReveal } from "./Reveal";
 import { SectionTag } from "./SectionTag";
 import { TESTIMONIALS } from "../constants";
 
